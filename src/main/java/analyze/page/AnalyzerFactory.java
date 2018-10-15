@@ -7,7 +7,7 @@ public class AnalyzerFactory {
     public static PageAnalyzer get(Topics topic) {
         switch (topic) {
             case MILITARY:
-            case CULTURE:
+            case SPORTS:
             case SOCIETY:
             case WORLD:
             case FINANCE:

@@ -11,11 +11,15 @@ public class CrawlMain {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         List<Spider> spiders = new ArrayList<>();
-        for (Topics topic : Topics.values()) {
-            Spider spider = SpiderFactory.get(topic);
-            spiders.add(spider);
-            spider.start();
-        }
+//        for (Topics topic : Topics.values()) {
+//            Spider spider = SpiderFactory.get(topic);
+//            spiders.add(spider);
+//            spider.start();
+//        }
+
+        Spider spd = SpiderFactory.get(Topics.WORLD);
+        spiders.add(spd);
+        spd.start();
 
         while (true) {
             Thread.sleep(1000);
@@ -27,5 +31,6 @@ public class CrawlMain {
                 break;
         }
         WriterManager.getInstance().closeAll();
+        Thread.sleep(5000);
     }
 }

@@ -5,12 +5,24 @@ import us.codecraft.webmagic.selector.Selectable;
 
 public class Utils {
     public static String selectTitle(Html html) {
-        String title = html.xpath("//title/text()").regex("([^\\|]*)\\|.*", 1).toString();
+        String title = html.xpath("//title/text()").regex("([^\\|]*).*", 1).toString();
+        if (title == null) {
+            title = html.xpath("//body/div[4]/h1[@class=\"main-title\"]/text()").regex("([^\\|]*).*", 1).toString();
+        }
         return title;
     }
 
     public static String selectDate(Html html) {
         String date = html.xpath("//*[@id=\"top_bar\"]/div/div[2]/span/text()").toString();
+        if (date == null) {
+            date = html.xpath("//*[@id=\"pub_date\"]/text()").toString();
+        }
+        if (date == null) {
+            date = html.xpath("//*[@id=\"wrapOuter\"]/div/div[4]/span/text()").toString();
+        }
+        if (date == null) {
+            date = html.regex(".*published at ([^\\]]*)\\].*", 1).toString();
+        }
         return date;
     }
 
@@ -19,6 +31,18 @@ public class Utils {
         String content = article.smartContent().toString();
         if ("".equals(content))
             content = mySmartContent(article.toString());
+        if (content == null) {
+            article = html.xpath("//*[@id=\"artibody\"]");
+            content = article.smartContent().toString();
+            if ("".equals(content))
+                content = mySmartContent(article.toString());
+        }
+        if (content == null) {
+            article = html.xpath("//*[@id=\"mainArticle\"]");
+            content = article.smartContent().toString();
+            if ("".equals(content))
+                content = mySmartContent(article.toString());
+        }
         return content;
     }
 

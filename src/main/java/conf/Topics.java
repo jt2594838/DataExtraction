@@ -1,5 +1,5 @@
 package conf;
 
 public enum Topics {
-    MILITARY, CULTURE, SOCIETY, WORLD, FINANCE
+    MILITARY, SPORTS, SOCIETY, WORLD, FINANCE
 }

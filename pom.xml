@@ -31,22 +31,21 @@
             <artifactId>webmagic-extension</artifactId>
             <version>0.7.3</version>
         </dependency>
-
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>3.9.2</version>
+            <version>3.9.1</version>
         </dependency>
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>3.9.2</version>
+            <version>3.9.1</version>
             <classifier>models</classifier>
         </dependency>
         <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>3.9.2</version>
+            <version>3.9.1</version>
             <classifier>models-chinese</classifier>
         </dependency>
         <!-- https://mvnrepository.com/artifact/dom4j/dom4j -->

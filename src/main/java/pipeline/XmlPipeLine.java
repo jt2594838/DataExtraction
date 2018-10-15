@@ -29,6 +29,10 @@ public class XmlPipeLine implements Pipeline {
 
     public void process(ResultItems resultItems, Task task) {
         MyPage page = resultItems.get(KEY_PROCESSED_PAGE);
+        if (page == null) {
+            return;
+        }
+        LOGGER.info("Pipeline is to write a page, id {}, url {}.", serialNum.get(), page.url);
         page.id = serialNum.getAndIncrement();
 
         File pageDir = new File(baseDir, page.topic);
