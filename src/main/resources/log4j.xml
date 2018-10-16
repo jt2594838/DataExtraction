@@ -11,8 +11,8 @@
 
 
 	<!--屏蔽所有org.springframework.*输出的Debug（及以下）信息-->
-	<logger name="org.springframework">
-		<level value="INFO"></level>
+	<logger name="edu.stanford.nlp">
+		<level value="warn"></level>
 	</logger>
 
 	<root>

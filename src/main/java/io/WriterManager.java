@@ -36,7 +36,13 @@ public class WriterManager {
     }
 
     public void closeAll() throws IOException {
-        for(MyXMLWriter writer : writerMap.values())
-            writer.close();
+        for(MyXMLWriter writer : writerMap.values()) {
+            try {
+                writer.close();
+            } catch (IOException e) {
+                if (!"Stream closed".equals(e.getMessage()))
+                    throw e;
+            }
+        }
     }
 }

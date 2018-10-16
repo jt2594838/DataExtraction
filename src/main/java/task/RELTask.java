@@ -1,9 +1,11 @@
 package task;
 
 import analyze.nlp.NERAnalyzer;
+import analyze.nlp.RelationAnalyzer;
 import entity.MyPage;
 import io.MyXMLWriter;
 import io.WriterManager;
+import javafx.util.Pair;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -19,16 +21,16 @@ import java.util.Map;
 
 import static conf.Configuration.*;
 
-public class NERTask implements Runnable{
+public class RELTask implements Runnable{
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(NERTask.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(RELTask.class);
 
     private String path;
-    private NERAnalyzer analyzer;
+    private RelationAnalyzer analyzer;
     private SAXReader reader;
     private int taskNum;
 
-    public NERTask(String path, NERAnalyzer analyzer, SAXReader reader, int taskNum) {
+    public RELTask(String path, RelationAnalyzer analyzer, SAXReader reader, int taskNum) {
         this.path = path;
         this.analyzer = analyzer;
         this.reader = reader;
@@ -42,7 +44,7 @@ public class NERTask implements Runnable{
 
     private MyXMLWriter prepareWriter(String path) throws IOException {
         // prepare writer for ner results
-        String outpuPath = path.replace(PAGE_FILE_NAME, NER_FILE_NAME);
+        String outpuPath = path.replace(PAGE_FILE_NAME, REL_FILE_NAME);
         File outputFile = new File(outpuPath);
         outputFile.mkdirs();
         MyXMLWriter writer = null;
@@ -76,7 +78,7 @@ public class NERTask implements Runnable{
                 pageCnt++;
                 LOGGER.info("[{}] Proceesing page {}-{}.", taskNum, pageCnt, page.title);
                 String titleWithContent = page.title + "\n" + page.content;
-                Map<String, List<String>> nerMap = analyzer.analyze(titleWithContent);
+                Map<String, List<Pair<String, String>>> nerMap = analyzer.analyze(titleWithContent);
                 LOGGER.info("[{}] Page Analyzed.", taskNum);
 
                 // write the ner results to another xml
@@ -84,8 +86,12 @@ public class NERTask implements Runnable{
                 Element pageEle = doc.addElement(ELE_PAGE);
                 pageEle.addElement(ELE_ID).addText(String.valueOf(page.id));
 
-                for (Map.Entry<String, List<String>> stringListEntry : nerMap.entrySet()) {
-                    pageEle.addElement(stringListEntry.getKey()).addText(String.join(",", stringListEntry.getValue()));
+                for (Map.Entry<String, List<Pair<String, String>>> stringListEntry : nerMap.entrySet()) {
+                    StringBuilder field = new StringBuilder();
+                    for (Pair<String, String> pair : stringListEntry.getValue()) {
+                        field.append("[").append(pair.getKey()).append(",").append(pair.getValue()).append("] ");
+                    }
+                    pageEle.addElement(stringListEntry.getKey()).addText(field.toString());
                 }
                 LOGGER.info("[{}] Page ner results converted.", taskNum);
                 try {

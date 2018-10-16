@@ -51,7 +51,8 @@ public class Configuration {
 
     public static final String PAGE_FILE_NAME = "pages.xml";
     public static final String NER_FILE_NAME = "ner.xml";
-    public static final String pagesDir = "pages";
+    public static final String REL_FILE_NAME = "rel.xml";
+    public static final String pagesDir = "pages/FINANCE";
     public static final String nerDir = "ner";
 
     // crawling
