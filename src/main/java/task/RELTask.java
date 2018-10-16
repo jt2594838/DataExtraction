@@ -89,7 +89,7 @@ public class RELTask implements Runnable{
                 for (Map.Entry<String, List<Pair<String, String>>> stringListEntry : nerMap.entrySet()) {
                     StringBuilder field = new StringBuilder();
                     for (Pair<String, String> pair : stringListEntry.getValue()) {
-                        field.append("[").append(pair.getKey()).append(",").append(pair.getValue()).append("] ");
+                        field.append("[").append(pair.getKey()).append("#").append(pair.getValue()).append("] ");
                     }
                     Element relation = pageEle.addElement(ELE_REL);
                     relation.addElement(ELE_REL_NAME).addText(stringListEntry.getKey());

@@ -1,2 +1,69 @@
 <pages>
-<pages>
+
+<page>
+  <id>0</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[会长#裴亮] [副总裁#张晟] [董事#张晟] [教授#李国宪]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[中国,连锁,经营,协会#裴亮] [韩国,高丽,大学,政经,学院#李国宪]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[裴亮#中国,连锁,经营,协会]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:founded_by</relation_name>
+    <relation_participants>[罗森#中国,）,投资,有限,公司]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[华#乐天,玛特] [华#乐天,系] [华#乐天,百货] [韩国#乐天,集团]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>1</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#吴婷]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:date_founded</relation_name>
+    <relation_participants>[2014年#金锣,集团]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>2</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[中国#张筱翠]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#张筱翠]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>3</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[行长#卡尼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[英国#卡尼]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>4</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#王朱莹] [主管#杨磊] [分析师#张毅]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:date_founded</relation_name>
+    <relation_participants>[2007年#华宝,证券]</relation_participants>
+  </relation>
+</page>

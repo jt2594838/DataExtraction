@@ -40,6 +40,7 @@ public class NERMain {
             NERTask task = new NERTask(path, analyzer, new SAXReader(), i++);
             threadPool.submit(task);
         }
+        threadPool.shutdown();
         while (((ThreadPoolExecutor) threadPool).getActiveCount() > 0) {
 
         }
