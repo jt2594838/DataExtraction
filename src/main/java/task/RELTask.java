@@ -91,7 +91,9 @@ public class RELTask implements Runnable{
                     for (Pair<String, String> pair : stringListEntry.getValue()) {
                         field.append("[").append(pair.getKey()).append(",").append(pair.getValue()).append("] ");
                     }
-                    pageEle.addElement(stringListEntry.getKey()).addText(field.toString());
+                    Element relation = pageEle.addElement(ELE_REL);
+                    relation.addElement(ELE_REL_NAME).addText(stringListEntry.getKey());
+                    relation.addElement(ELE_REL_PARTICIPANTS).addText(field.toString());
                 }
                 LOGGER.info("[{}] Page ner results converted.", taskNum);
                 try {

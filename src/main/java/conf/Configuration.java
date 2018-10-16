@@ -45,6 +45,9 @@ public class Configuration {
     public static final String ELE_TOPIC = "topic";
     public static final String ELE_TITLE = "title";
     public static final String ELE_CONTENT = "content";
+    public static final String ELE_REL = "relation";
+    public static final String ELE_REL_NAME = "relation name";
+    public static final String ELE_REL_PARTICIPANTS = "relation participants";
 
     public static final String TAG_PAGES = "<pages>";
     public static final String TAG_END_PAGES = "</pages>";

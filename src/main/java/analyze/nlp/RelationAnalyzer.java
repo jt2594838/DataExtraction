@@ -25,7 +25,6 @@ public class RelationAnalyzer {
         Properties properties = new Properties();
         properties.load(new BufferedReader(new FileReader(props)));
         pipeline = new StanfordCoreNLP(properties);
-        pipeline.addAnnotator(StanfordCoreNLP.getExistingAnnotator(Annotator.STANFORD_RELATION));
     }
 
     public Map<String, List<Pair<String, String>>> analyze(String src) {

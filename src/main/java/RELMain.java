@@ -35,6 +35,7 @@ public class RELMain {
             RELTask task = new RELTask(path, analyzer, new SAXReader(), i++);
             threadPool.submit(task);
         }
+        threadPool.shutdown();
         while (((ThreadPoolExecutor) threadPool).getActiveCount() > 0) {
 
         }

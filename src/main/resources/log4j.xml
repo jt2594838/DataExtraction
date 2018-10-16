@@ -9,11 +9,12 @@
 		</layout>
 	</appender>
 
-
-	<!--屏蔽所有org.springframework.*输出的Debug（及以下）信息-->
 	<logger name="edu.stanford.nlp">
 		<level value="warn"></level>
 	</logger>
+    <logger name="analyze.nlp.RelationAnalyzer">
+        <level value="debug"></level>
+    </logger>
 
 	<root>
 		<level value="info"/>
