@@ -21,15 +21,24 @@ public class CrawlMain {
         spiders.add(spd);
         spd.start();
 
+        long sleepTime = 1000;
+        long deadTime = 0;
+        long deadThreshold = 10000;
         while (true) {
-            Thread.sleep(1000);
+            Thread.sleep(sleepTime);
             int threadCnt = 0;
             for (Spider spider : spiders) {
                 threadCnt += spider.getThreadAlive();
             }
-            if (threadCnt == 0)
+            if (threadCnt == 0) {
+                deadTime += sleepTime;
+            } else {
+                deadTime = 0;
+            }
+            if (deadTime >= deadThreshold)
                 break;
         }
+        Thread.sleep(10000);
         WriterManager.getInstance().closeAll();
         Thread.sleep(5000);
     }

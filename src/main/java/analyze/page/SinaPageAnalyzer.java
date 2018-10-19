@@ -36,6 +36,11 @@ public class SinaPageAnalyzer implements PageAnalyzer {
             throw new RuntimeException("Content not found! " + ret.url);
         }
 
+        ret.imgURLs.addAll(Utils.selectPics(html));
+        ret.editor = Utils.selectEditor(html);
+        ret.source = Utils.selectSource(html);
+        ret.editor = ret.editor == null ? "" : ret.editor;
+        ret.source = ret.source == null ? "" : ret.source;
         return ret;
     }
 }

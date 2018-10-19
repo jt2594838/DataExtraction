@@ -1,3 +1,2139 @@
 <pages>
 
+<page>
+  <id>0</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主席#孙国华] [总经理#魏江雷] [副总裁#魏江雷]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[北京,篮协#孙国华] [新浪网#魏江雷] [新浪,体育#魏江雷]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[孙国华#北京,篮协] [魏江雷#新浪,体育]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>1</id>
+</page>
+<page>
+  <id>2</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主席#孙国华]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[北京,篮协#孙国华]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[孙国华#北京,篮协]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>3</id>
+</page>
+<page>
+  <id>4</id>
+</page>
+<page>
+  <id>5</id>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[韩国#黑鹰队] [韩国#黑鹰队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>6</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[加拿大人#布鲁斯特]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>7</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[中国#张培萌]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[运动员#张培萌] [运动员#张培萌]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>8</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[副总经理#刘岳] [总裁#杨东为]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[中国,公司,赛事,运营,管理,中心#刘岳]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[刘岳#中国,公司,赛事,运营,管理,中心]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>9</id>
+</page>
+<page>
+  <id>10</id>
+</page>
+<page>
+  <id>11</id>
+</page>
+<page>
+  <id>12</id>
+</page>
+<page>
+  <id>13</id>
+  <relation>
+    <relation_name>org:stateorprovince_of_headquarters</relation_name>
+    <relation_participants>[北京#新浪网]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[意大利#新浪网]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>14</id>
+</page>
+<page>
+  <id>15</id>
+</page>
+<page>
+  <id>16</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[教授#苏炳添] [副,教授#苏炳添] [教授#苏] [教授#苏] [教授#苏] [教授#苏] [老师#苏] [教授#苏]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[暨南,大学#苏炳添]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>17</id>
+  <relation>
+    <relation_name>per:stateorprovince_of_birth</relation_name>
+    <relation_participants>[辽宁#王] [河北#李冰洁] [江苏#张雨霏] [浙江#李广源] [广东#麦琨豪] [江苏#张雨霏] [辽宁#单凯琪] [福建#朱嘉铭] [湖南#黄朝升] [广东#邓子淇] [广东#程潇] [北京#于静瑶] [上海#王舟以] [山东#程龙] [湖北#张子扬] [上海#邱子傲]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>18</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[董事长#曹仁铉]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[中国#曹仁铉] [农心,公司#曹仁铉]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[曹仁铉#农心,公司]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[中国#农心,公司]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>19</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[泰国人#宋沙瓦]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:number_of_employees_members</relation_name>
+    <relation_participants>[19#中国,军团]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:countries_of_residence</relation_name>
+    <relation_participants>[芬兰#赫尔]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>20</id>
+</page>
+<page>
+  <id>21</id>
+</page>
+<page>
+  <id>22</id>
+</page>
+<page>
+  <id>23</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主教练#加拉塔萨,雷]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>24</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#李冰]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>25</id>
+</page>
+<page>
+  <id>26</id>
+</page>
+<page>
+  <id>27</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#李立J]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[荷兰人#希丁克]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[71#希丁克]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>28</id>
+</page>
+<page>
+  <id>29</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[36#梅西]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[西班牙#世界,体育报] [西班牙#世界,体育报]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>30</id>
+</page>
+<page>
+  <id>31</id>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[马尔蒂#AC,米兰,传奇,队长]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>32</id>
+</page>
+<page>
+  <id>33</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主席#格林德尔]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[德国#格林德尔]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>34</id>
+</page>
+<page>
+  <id>35</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#查拉尼亚]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>36</id>
+</page>
+<page>
+  <id>37</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#埃里克] [记者#埃里克]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>38</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#马库斯]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[勇士队#马库斯] [勇士队#杜兰特]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>39</id>
+</page>
+<page>
+  <id>40</id>
+</page>
+<page>
+  <id>41</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[秘书长#帕特里克] [秘书长#鲍曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[51#鲍曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:date_of_death</relation_name>
+    <relation_participants>[昨日#帕特里克] [昨日#鲍曼]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>42</id>
+</page>
+<page>
+  <id>43</id>
+</page>
+<page>
+  <id>44</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[公司,总经理#孙国庆]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[孙国庆#济南,金瑞,贝特,科技,有限]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>45</id>
+  <relation>
+    <relation_name>per:countries_of_residence</relation_name>
+    <relation_participants>[中国#杨欣乐]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>46</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#郭敬丹] [记者#肖世尧]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新华社#郭敬丹] [新华社#肖世尧]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>47</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#韦骅] [主教练#基] [主教练#莫里森]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网,卫冕,冠军,美国队,出局,新华社#韦骅] [美国队#基] [荷兰队#莫里森]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>48</id>
+</page>
+<page>
+  <id>49</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主播#王异] [主持人#魏翊东] [记者#袁野] [记者#袁野]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[北京#王异] [新浪#袁野] [新浪,体育#袁野]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>50</id>
+</page>
+<page>
+  <id>51</id>
+</page>
+<page>
+  <id>52</id>
+</page>
+<page>
+  <id>53</id>
+</page>
+<page>
+  <id>54</id>
+</page>
+<page>
+  <id>55</id>
+</page>
+<page>
+  <id>56</id>
+</page>
+<page>
+  <id>57</id>
+  <relation>
+    <relation_name>org:number_of_employees_members</relation_name>
+    <relation_participants>[35#塔尔,德利,创新高,武磊] [3#塔尔,德利] [5#广州,恒大,外援,保利,尼奥]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>58</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[韩国#曹薰铉]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[总教练#俞斌] [国会,议员#曹薰铉] [理事长#华以刚] [副总裁#宋弼镐] [主席#林建超] [副主席#常昊] [院长#韩在爀] [董事长#曹仁铉] [副主席#常昊]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[国家队#俞斌] [北京,围棋,基金会#华以刚] [中国,围棋,协会#常昊] [韩国,文化,院#韩在爀] [韩国,棋院#宋弼镐] [韩国,驻华,大使馆,公使#韩在爀] [中国,围棋,协会#林建超] [安国铉,中国,农心#曹仁铉] [中国,围棋,协会#常昊]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[韩在爀#韩国,文化,院] [林建超#中国,围棋,协会] [华以刚#北京,围棋,基金会] [常昊#中国,围棋,协会] [韩在爀#韩国,驻华,大使馆,公使] [曹仁铉#安国铉,中国,农心] [常昊#中国,围棋,协会]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>59</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[18#池江璃]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>60</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[中国#劳瑞]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[总,教练#赵宏博]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>61</id>
+</page>
+<page>
+  <id>62</id>
+  <relation>
+    <relation_name>per:countries_of_residence</relation_name>
+    <relation_participants>[瑞典#索斯特伦] [瑞典#索斯特伦]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>63</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主任#李,中文] [县委,书记#袁明] [县委,书记#袁明]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[人民,日报,体育部#李,中文]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[李,中文#人民,日报,体育部] [袁明#中共,盐亭] [袁明#中共,盐亭]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>64</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[31#徐莉]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>65</id>
+  <relation>
+    <relation_name>org:stateorprovince_of_headquarters</relation_name>
+    <relation_participants>[北京#新浪网]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[意大利#新浪网]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>66</id>
+</page>
+<page>
+  <id>67</id>
+  <relation>
+    <relation_name>per:cities_of_residence</relation_name>
+    <relation_participants>[武汉#张滨月]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:stateorprovince_of_headquarters</relation_name>
+    <relation_participants>[安徽#四川,长虹]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>68</id>
+</page>
+<page>
+  <id>69</id>
+</page>
+<page>
+  <id>70</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[教授#苏炳添] [副,教授#苏炳添] [教授#苏] [教授#苏] [教授#苏] [教授#苏] [老师#苏] [教授#苏]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[暨南,大学#苏炳添]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>71</id>
+  <relation>
+    <relation_name>org:number_of_employees_members</relation_name>
+    <relation_participants>[四#新浪网,天津站]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>72</id>
+</page>
+<page>
+  <id>73</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主教练#施坦奇]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[叙利亚#施坦奇]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>74</id>
+</page>
+<page>
+  <id>75</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主教练#加拉塔萨,雷]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>76</id>
+</page>
+<page>
+  <id>77</id>
+</page>
+<page>
+  <id>78</id>
+  <relation>
+    <relation_name>per:stateorprovince_of_birth</relation_name>
+    <relation_participants>[辽宁#王] [河北#李冰洁] [江苏#张雨霏] [浙江#李广源] [广东#麦琨豪] [江苏#张雨霏] [辽宁#单凯琪] [福建#朱嘉铭] [湖南#黄朝升] [广东#邓子淇] [广东#程潇] [北京#于静瑶] [上海#王舟以] [山东#程龙] [湖北#张子扬] [上海#邱子傲]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>79</id>
+</page>
+<page>
+  <id>80</id>
+</page>
+<page>
+  <id>81</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[总经理#焦凤波] [记者#李巾]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>82</id>
+</page>
+<page>
+  <id>83</id>
+</page>
+<page>
+  <id>84</id>
+</page>
+<page>
+  <id>85</id>
+</page>
+<page>
+  <id>86</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[公司,总经理#刘昕] [副总裁#曹增辉] [副总经理#王文明] [董事长#姚明] [公司,总经理#刘昕]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[北京,）,体育,有限,公司#姚明] [北京#王文明] [中国,移动,咪咕#刘昕] [咪咕#刘昕]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[姚明#北京,）,体育,有限,公司] [刘昕#中国,移动,咪咕] [刘昕#咪咕]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>87</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[克罗地亚,人#米罗西]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[顾问#姚,夏]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[四川,隆发#姚,夏]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[马明宇#四川,安纳,普尔,那,俱乐部]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:alternate_names</relation_name>
+    <relation_participants>[Annapurana#纳普尔纳]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:city_of_headquarters</relation_name>
+    <relation_participants>[成都#四川,力达士] [成都#兴城,俱乐部]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:founded_by</relation_name>
+    <relation_participants>[四川,安纳,普尔,那,俱乐部#四川,明宇,足球,俱乐部] [马明宇#四川,明宇,足球,俱乐部]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>88</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[董事长#曹仁铉]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[中国#曹仁铉] [农心,公司#曹仁铉]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[曹仁铉#农心,公司]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[中国#农心,公司]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>89</id>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[荷兰#新浪网]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>90</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[24#孙颖莎]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>91</id>
+</page>
+<page>
+  <id>92</id>
+</page>
+<page>
+  <id>93</id>
+</page>
+<page>
+  <id>94</id>
+</page>
+<page>
+  <id>95</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[总经理#朱芳雨] [主教练#杜锋] [主教练#郭士强] [大将#阿尔德里奇] [大将#科尔] [记者#李夫杰]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[广东,宏远,俱乐部#朱芳雨]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:alternate_names</relation_name>
+    <relation_participants>[科比#布鲁克斯]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[朱芳雨#广东,宏远,俱乐部]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[塞尔维亚人#武贾,尼奇]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>96</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[首席,执行官#迈克鲁林] [执行,副总裁#迈克鲁林]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:alternate_names</relation_name>
+    <relation_participants>[WTA#网球,协会]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>97</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#谭畅]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网,新华社#谭畅]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>98</id>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[韩国#黑鹰队] [韩国#黑鹰队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>99</id>
+</page>
+<page>
+  <id>100</id>
+</page>
+<page>
+  <id>101</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[总监#布朗] [总监#罗斯]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>102</id>
+</page>
+<page>
+  <id>103</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#对特尔基奇] [记者#陶邢莹]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>104</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#陶邢莹]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>105</id>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[中国#新浪网]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>106</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[明星#莱科宁]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:alternate_names</relation_name>
+    <relation_participants>[ATS#瑞士,新闻,通讯社]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>107</id>
+</page>
+<page>
+  <id>108</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#塔皮亚]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>109</id>
+</page>
+<page>
+  <id>110</id>
+</page>
+<page>
+  <id>111</id>
+</page>
+<page>
+  <id>112</id>
+</page>
+<page>
+  <id>113</id>
+</page>
+<page>
+  <id>114</id>
+</page>
+<page>
+  <id>115</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#马克思]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[30#巴特勒] [34，35#巴特勒]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>116</id>
+</page>
+<page>
+  <id>117</id>
+</page>
+<page>
+  <id>118</id>
+</page>
+<page>
+  <id>119</id>
+</page>
+<page>
+  <id>120</id>
+</page>
+<page>
+  <id>121</id>
+</page>
+<page>
+  <id>122</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[生意人#李]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>123</id>
+</page>
+<page>
+  <id>124</id>
+</page>
+<page>
+  <id>125</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#李立J]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[荷兰人#希丁克]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[71#希丁克]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>126</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主席#姚明] [主席#姚明]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[中国,篮协#姚明] [中国,篮球,协会#姚明]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[姚明#中国,篮协] [姚明#中国,篮球,协会]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>127</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[大将#马竞]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>128</id>
+</page>
+<page>
+  <id>129</id>
+</page>
+<page>
+  <id>130</id>
+</page>
+<page>
+  <id>131</id>
+</page>
+<page>
+  <id>132</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[秘书长#马滕斯]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[比利时,足协#马滕斯]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[马滕斯#比利时,足协]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>133</id>
+  <relation>
+    <relation_name>org:alternate_names</relation_name>
+    <relation_participants>[中,篮,公司#北京,中篮,体育,开发,中心] [北京,中篮,体育,开发,中心#中,篮,公司]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>134</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[中国#徐莉佳]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[形象,大使#徐莉] [副部长#周建广] [主席#张小冬] [总裁#王志方] [主席#张小冬] [副部长#周建广]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[铭泰,投资,发展,集团#王志方] [中国,帆船,帆板,运动,协会#张小冬] [潍坊,滨海,宣传,文化,群团,部#周建广] [中国,帆船,帆板,运动,协会#张小冬] [潍坊,滨海区,宣传,文化,群团,部#周建广]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[周建广#潍坊,滨海,宣传,文化,群团,部] [张小冬#中国,帆船,帆板,运动,协会] [张小冬#中国,帆船,帆板,运动,协会] [周建广#潍坊,滨海区,宣传,文化,群团,部]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>135</id>
+</page>
+<page>
+  <id>136</id>
+</page>
+<page>
+  <id>137</id>
+</page>
+<page>
+  <id>138</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[股东#罗纳尔多]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>139</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[22#戈洛]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>140</id>
+</page>
+<page>
+  <id>141</id>
+</page>
+<page>
+  <id>142</id>
+</page>
+<page>
+  <id>143</id>
+</page>
+<page>
+  <id>144</id>
+</page>
+<page>
+  <id>145</id>
+</page>
+<page>
+  <id>146</id>
+</page>
+<page>
+  <id>147</id>
+</page>
+<page>
+  <id>148</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[发言人#荷西·维阿]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>149</id>
+</page>
+<page>
+  <id>150</id>
+</page>
+<page>
+  <id>151</id>
+</page>
+<page>
+  <id>152</id>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[马尔蒂#AC,米兰,传奇,队长]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>153</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[41#卡特]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>154</id>
+</page>
+<page>
+  <id>155</id>
+</page>
+<page>
+  <id>156</id>
+</page>
+<page>
+  <id>157</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[部长#陈永亮] [部长#清水克洋] [部长#陈永亮]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[中国,足协,中,超联,赛部#陈永亮] [中国,足球,协会,中,超联,赛部#陈永亮]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[陈永亮#中国,足协,中,超联,赛部] [陈永亮#中国,足球,协会,中,超联,赛部]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:city_of_headquarters</relation_name>
+    <relation_participants>[广州#江苏,苏宁]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[日本#J,联赛,名古屋鲸,足球,俱乐部]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>158</id>
+</page>
+<page>
+  <id>159</id>
+</page>
+<page>
+  <id>160</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[指挥#拉里] [记者#孔宁]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[中国#新浪网]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>161</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主教练#亨德利]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>162</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#郭剑]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[中国#新浪网]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>163</id>
+</page>
+<page>
+  <id>164</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#慈鑫]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>165</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[拉比#奥特] [拉比#奥特] [拉比#奥特] [总监#莱昂纳多] [拉比#奥特]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[米兰#莱昂纳多]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>166</id>
+</page>
+<page>
+  <id>167</id>
+</page>
+<page>
+  <id>168</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#吉春江] [艺人#杨洋] [记者#吉春江] [艺人#杨洋] [主教练#水庆霞] [主教练#水庆霞]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>169</id>
+  <relation>
+    <relation_name>org:number_of_employees_members</relation_name>
+    <relation_participants>[两#印度队]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:date_founded</relation_name>
+    <relation_participants>[1889年#莫罕莫德,体育,俱乐部]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[马纳多#印度,国家队]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:city_of_headquarters</relation_name>
+    <relation_participants>[亚洲#巴西队]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[印度#新浪网]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>170</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#刘闻超]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网,本报#刘闻超]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>171</id>
+</page>
+<page>
+  <id>172</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主教练#康斯坦丁]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[印度,国家队#康斯坦丁]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>173</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#陈艳婷] [总监#严翔] [主,教练#戴维]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网,本报#陈艳婷]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:date_of_birth</relation_name>
+    <relation_participants>[2000年#朱辰杰]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>174</id>
+</page>
+<page>
+  <id>175</id>
+  <relation>
+    <relation_name>per:stateorprovince_of_birth</relation_name>
+    <relation_participants>[辽宁#王] [河北#李冰洁] [江苏#张雨霏] [辽宁#邱钰涵] [辽宁#王] [河北#李冰洁] [辽宁#王靖卓] [浙江#李广源] [江苏#张雨霏] [辽宁#单凯琪] [福建#朱嘉铭] [广东#邓子淇] [上海#王一哲] [湖南#黄志伟] [广东#张芳玮] [广东#程潇弘] [北京#于静瑶] [上海#王舟]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>176</id>
+  <relation>
+    <relation_name>org:city_of_headquarters</relation_name>
+    <relation_participants>[莫斯科#中央,陆军]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[西班牙#《,马卡报]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>177</id>
+</page>
+<page>
+  <id>178</id>
+  <relation>
+    <relation_name>per:cities_of_residence</relation_name>
+    <relation_participants>[苏州#朱辰杰]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#陈艳婷] [记者#陈艳婷]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:date_of_death</relation_name>
+    <relation_participants>[星期天#郭] [星期天#温家宝] [星期天#黄文卓,胡米利亚]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[朱辰杰#U19,国,青]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:founded_by</relation_name>
+    <relation_participants>[陈雅俊#北京,国安]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:stateorprovince_of_headquarters</relation_name>
+    <relation_participants>[河北#广州,恒大]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:country_of_death</relation_name>
+    <relation_participants>[西班牙#郭] [西班牙#黄文卓,胡米利亚] [西班牙#温家宝]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[韩国#龙仁,大学]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>179</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#李冰]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>180</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[体育,主管#耶罗]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[西班牙#耶罗]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>181</id>
+</page>
+<page>
+  <id>182</id>
+</page>
+<page>
+  <id>183</id>
+</page>
+<page>
+  <id>184</id>
+</page>
+<page>
+  <id>185</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[副主席#南勇]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>186</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主席#格林德尔]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[德国#格林德尔]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>187</id>
+</page>
+<page>
+  <id>188</id>
+</page>
+<page>
+  <id>189</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#李冰]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>190</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#蒋子文] [元帅#贺龙]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:alternate_names</relation_name>
+    <relation_participants>[解放军,八一,体育,工作,大队#八一,体工大队] [八一,体工大队#解放军,八一,体育,工作,大队]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网,澎湃,新闻#蒋子文]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>191</id>
+</page>
+<page>
+  <id>192</id>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[青岛,青年队,齐鲁网#王刚] [济南#刘蓉蓉]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:spouse</relation_name>
+    <relation_participants>[王刚#刘蓉蓉] [刘蓉蓉#王刚]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>193</id>
+</page>
+<page>
+  <id>194</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[副主席#崇勇与] [秘书长#崇勇与] [副主席#崇勇] [秘书长#崇勇]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[天津,足协#崇勇与]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>195</id>
+</page>
+<page>
+  <id>196</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#吉春江]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:cities_of_residence</relation_name>
+    <relation_participants>[泰安#吉春江]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网,本报#吉春江]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>197</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主席#弗洛伦蒂诺] [总监#奥西里奥]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[国米#奥西里奥]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[33#莫德里奇]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>198</id>
+</page>
+<page>
+  <id>199</id>
+</page>
+<page>
+  <id>200</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[大将#巴萨]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>201</id>
+  <relation>
+    <relation_name>per:cities_of_residence</relation_name>
+    <relation_participants>[广州#佩雷拉]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#刘闻超] [书记#陈戌源] [董事长#陈戌源]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网,本报#刘闻超]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>202</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#李冰]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>203</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[技术,总监#罗伯特] [主席#巴托梅乌] [主席#巴萨] [体育,主管#克鲁]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[西班牙#每,日,体育报] [西班牙#每,日,体育报]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>204</id>
+</page>
+<page>
+  <id>205</id>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[中国,国家队#霍顿]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[印度#国奥队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>206</id>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[曼联#大卫]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:alternate_names</relation_name>
+    <relation_participants>[贝克,汉姆#大卫] [贝克,汉姆#大卫]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>207</id>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[比利时#亨利]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>208</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#陈艳婷]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>209</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[形象,大使#彭于晏]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:countries_of_residence</relation_name>
+    <relation_participants>[德国#丹尼尔·杜瑟]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>210</id>
+</page>
+<page>
+  <id>211</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[总裁#阿加格]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>212</id>
+</page>
+<page>
+  <id>213</id>
+  <relation>
+    <relation_name>per:countries_of_residence</relation_name>
+    <relation_participants>[挪威#科特·马福林]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>214</id>
+</page>
+<page>
+  <id>215</id>
+</page>
+<page>
+  <id>216</id>
+</page>
+<page>
+  <id>217</id>
+</page>
+<page>
+  <id>218</id>
+  <relation>
+    <relation_name>org:stateorprovince_of_headquarters</relation_name>
+    <relation_participants>[江西#大满贯,体育,产业,发展,有限,公司]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>219</id>
+</page>
+<page>
+  <id>220</id>
+</page>
+<page>
+  <id>221</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[专家#冯振荣]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>222</id>
+</page>
+<page>
+  <id>223</id>
+</page>
+<page>
+  <id>224</id>
+</page>
+<page>
+  <id>225</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[德国人#施坦格]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:cities_of_residence</relation_name>
+    <relation_participants>[南京#高京] [苏州#高京]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#高京]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网,新,快报#高京]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>226</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[36#梅西]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[西班牙#世界,体育报] [西班牙#世界,体育报]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>227</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[泰国人#宋沙瓦]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:number_of_employees_members</relation_name>
+    <relation_participants>[19#中国,军团]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:countries_of_residence</relation_name>
+    <relation_participants>[芬兰#赫尔]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>228</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[总经理#中村修]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[中国#香港队] [中国#香港队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>229</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#贾岩峰] [主任#蔡]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网#贾岩峰]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>230</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[总监#普罗维亚]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>231</id>
+</page>
+<page>
+  <id>232</id>
+</page>
+<page>
+  <id>233</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[19#吴易昺] [28#张择] [32#李喆] [19#吴易昺]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>234</id>
+</page>
+<page>
+  <id>235</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#杨] [记者#贾巴里]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>236</id>
+</page>
+<page>
+  <id>237</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[31#德约科维奇] [21#丘里奇]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>238</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#王伟] [董事长#吴晓晖]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[荷兰#克鲁,伊夫]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>239</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#张凤菲]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>240</id>
+</page>
+<page>
+  <id>241</id>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[摩纳哥#亨利]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>242</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#王伟]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>243</id>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[切尔西#哲科]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[32#哲科]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>244</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#王伟] [部长#戚军] [主,教练#石磊]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[中国,足协,竞赛部#戚军]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[戚军#中国,足协,竞赛部]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:stateorprovince_of_headquarters</relation_name>
+    <relation_participants>[广东#山东,鲁能] [广东#长春,亚泰]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>245</id>
+  <relation>
+    <relation_name>org:number_of_employees_members</relation_name>
+    <relation_participants>[42#青奥会]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>246</id>
+</page>
+<page>
+  <id>247</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#隋海涛]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>248</id>
+</page>
+<page>
+  <id>249</id>
+  <relation>
+    <relation_name>per:cities_of_residence</relation_name>
+    <relation_participants>[考纳斯#萨博,尼斯]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[上将#罗宾逊]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>250</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#寒冰]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网#寒冰]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[18#布拉坎] [18#纳斯尔]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[马来西亚#国青队] [马来西亚#国青队] [马来西亚#U23,国奥队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>251</id>
+</page>
+<page>
+  <id>252</id>
+</page>
+<page>
+  <id>253</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#何鹏楠]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[巴黎#王霜] [成都,商报#何鹏楠]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:city_of_birth</relation_name>
+    <relation_participants>[绵阳#张琳艳] [绵阳#孙雯]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:date_of_birth</relation_name>
+    <relation_participants>[2001年#孙雯]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:statesorprovinces_of_residence</relation_name>
+    <relation_participants>[北京#张琳艳]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>254</id>
+</page>
+<page>
+  <id>255</id>
+</page>
+<page>
+  <id>256</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[波兰人#皮亚泰克]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[西班牙#《,每,日,体育报] [西班牙#每,日,体育报]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>257</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#赵睿]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>258</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[摩纳哥#亨利]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>259</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主管#沃尔夫]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>260</id>
+</page>
+<page>
+  <id>261</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[西班牙#胡米利亚]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#陈伟]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:alternate_names</relation_name>
+    <relation_participants>[苏宁#齐雨熙] [权健#徐浩峰]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>262</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[23#皮亚察]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>263</id>
+</page>
+<page>
+  <id>264</id>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[德国#图片报]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>265</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[41#卡特]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>266</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主教练#埃梅里]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>267</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#陈永]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:countries_of_residence</relation_name>
+    <relation_participants>[韩国#李强人]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:date_of_birth</relation_name>
+    <relation_participants>[2001年,11月,20日#陶强]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[王彤#中国队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>268</id>
+</page>
+<page>
+  <id>269</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#李航]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>270</id>
+</page>
+<page>
+  <id>271</id>
+</page>
+<page>
+  <id>272</id>
+  <relation>
+    <relation_name>org:number_of_employees_members</relation_name>
+    <relation_participants>[21-50#世界,足球,国家队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>273</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#蔡宗霖]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:country_of_headquarters</relation_name>
+    <relation_participants>[日本#国家队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>274</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[葡萄牙人#保罗·本托]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#筱曦]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[韩国队#筱曦]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:stateorprovince_of_headquarters</relation_name>
+    <relation_participants>[重庆#斯威队]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>275</id>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[41#卡特]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>276</id>
+  <relation>
+    <relation_name>per:cities_of_residence</relation_name>
+    <relation_participants>[首尔#崔龙洙]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#筱曦]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网#筱曦]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>277</id>
+</page>
+<page>
+  <id>278</id>
+  <relation>
+    <relation_name>org:number_of_employees_members</relation_name>
+    <relation_participants>[3#切尔西]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:alternate_names</relation_name>
+    <relation_participants>[曼城#斯通斯] [曼城#席尔瓦] [热刺#凯恩] [曼城#阿圭罗] [利物浦#萨拉赫] [热刺#穆萨-登贝莱] [曼城#埃德森] [曼城#沃克] [热刺#阿尔德韦雷尔德] [利物浦#范迪克] [曼联#德赫亚]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>279</id>
+</page>
+<page>
+  <id>280</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#寒冰]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:stateorprovince_of_headquarters</relation_name>
+    <relation_participants>[河北#华夏,幸福]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>281</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#蔡创]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>282</id>
+</page>
+<page>
+  <id>283</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#程善] [主席#萨尔曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:alternate_names</relation_name>
+    <relation_participants>[IFAB#国际,足联,赛事,规则,制定,机构,国际,足球,理事会]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[亚足联#萨尔曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[萨尔曼#亚足联]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>284</id>
+</page>
+<page>
+  <id>285</id>
+</page>
+<page>
+  <id>286</id>
+</page>
+<page>
+  <id>287</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[助教#胡安] [主教练#戴维] [记者#蔡创]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>288</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[主席#曼城] [主席#阿尔]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>289</id>
+</page>
+<page>
+  <id>290</id>
+</page>
+<page>
+  <id>291</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[秘书长#帕特里克] [主席#霍拉西奥] [主席#霍拉西奥] [主席#穆拉] [委员#鲍曼] [副秘书长#鲍曼] [主席#托马斯] [主席#巴赫]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:schools_attended</relation_name>
+    <relation_participants>[瑞士,洛桑,大学#鲍曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:date_of_birth</relation_name>
+    <relation_participants>[1967年,8月,5日#帕特里克] [1967年,8月,5日#鲍曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:date_of_death</relation_name>
+    <relation_participants>[昨日#帕特里克] [昨日#鲍曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:country_of_birth</relation_name>
+    <relation_participants>[瑞士#鲍曼] [瑞士#帕特里克]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>292</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[德国人#施坦格]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#白国华] [记者#林爽]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:alternate_names</relation_name>
+    <relation_participants>[GSA#沙特,体育,总局]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[24#穆罕默德·奥斯曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>org:top_members_employees</relation_name>
+    <relation_participants>[图尔,基·谢赫#GSA]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:country_of_birth</relation_name>
+    <relation_participants>[叙利亚#埃阿斯·奥斯曼] [瑞典#加布里埃尔·索米] [叙利亚#胡德]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>293</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[秘书长#帕特里克] [秘书长#鲍曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:age</relation_name>
+    <relation_participants>[51#鲍曼]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:date_of_death</relation_name>
+    <relation_participants>[昨日#帕特里克] [昨日#鲍曼]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>294</id>
+</page>
+<page>
+  <id>295</id>
+  <relation>
+    <relation_name>per:origin</relation_name>
+    <relation_participants>[斯洛文尼亚,人#卡塔尼奇]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#白国华]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[新浪网#白国华]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>296</id>
+</page>
+<page>
+  <id>297</id>
+  <relation>
+    <relation_name>per:countries_of_residence</relation_name>
+    <relation_participants>[克罗地亚#雷]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>298</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#陈永]</relation_participants>
+  </relation>
+</page>
+<page>
+  <id>299</id>
+  <relation>
+    <relation_name>per:title</relation_name>
+    <relation_participants>[记者#白国华] [主教练#康斯坦丁]</relation_participants>
+  </relation>
+  <relation>
+    <relation_name>per:employee_or_member_of</relation_name>
+    <relation_participants>[印度队#康斯坦丁]</relation_participants>
+  </relation>
+</page>
 </pages>

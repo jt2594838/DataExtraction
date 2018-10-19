@@ -48,6 +48,10 @@ public class Configuration {
     public static final String ELE_REL = "relation";
     public static final String ELE_REL_NAME = "relation_name";
     public static final String ELE_REL_PARTICIPANTS = "relation_participants";
+    public static final String ELE_IMGS = "imgs";
+    public static final String ELE_IMG = "img";
+    public static final String ELE_EDITOR = "editor";
+    public static final String ELE_SRC = "source";
 
     public static final String TAG_PAGES = "<pages>";
     public static final String TAG_END_PAGES = "</pages>";

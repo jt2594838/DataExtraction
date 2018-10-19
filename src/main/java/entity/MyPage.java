@@ -4,6 +4,9 @@ import org.dom4j.Document;
 import org.dom4j.DocumentHelper;
 import org.dom4j.Element;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import static conf.Configuration.*;
 
 public class MyPage {
@@ -14,6 +17,10 @@ public class MyPage {
     public String title;
     public String time;
     public String content;
+    public String editor;
+    public String source;
+
+    public List<String> imgURLs = new ArrayList<>();
 
     public Document toXml() {
         Document doc = DocumentHelper.createDocument();
@@ -24,6 +31,9 @@ public class MyPage {
         Element topicEle = pageEle.addElement(ELE_TOPIC);
         Element titleEle = pageEle.addElement(ELE_TITLE);
         Element contentEle = pageEle.addElement(ELE_CONTENT);
+        Element editorEle = pageEle.addElement(ELE_EDITOR);
+        Element picsEle = pageEle.addElement(ELE_IMGS);
+        Element srcEle = pageEle.addElement(ELE_SRC);
 
         idEle.addText(String.valueOf(this.id));
         dateEle.addText(this.time);
@@ -31,7 +41,11 @@ public class MyPage {
         topicEle.addText(this.topic);
         titleEle.addText(this.title);
         contentEle.addText(this.content);
-
+        editorEle.addText(this.editor);
+        srcEle.addText(this.source);
+        for (String imgURL : imgURLs) {
+            picsEle.addElement(ELE_IMG).addText(imgURL);
+        }
         return doc;
     }
 
@@ -43,6 +57,13 @@ public class MyPage {
         ret.title = page.element(ELE_TITLE).getText();
         ret.topic = page.element(ELE_TOPIC).getText();
         ret.url = page.element(ELE_URL).getText();
+        ret.editor = page.elementText(ELE_EDITOR);
+        ret.source = page.elementText(ELE_SRC);
+
+        List<Element> picEles = page.element(ELE_IMGS).elements(ELE_IMG);
+        for(Element picEle : picEles) {
+            ret.imgURLs.add(picEle.getText());
+        }
 
         return ret;
     }
